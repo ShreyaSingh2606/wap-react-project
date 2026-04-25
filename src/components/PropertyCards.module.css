@@ -1,0 +1,318 @@
+.propertySection {
+  background: var(--bg-alt);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.title {
+  font-size: clamp(24px, 3vw, 32px);
+  font-weight: 700;
+}
+
+.stats {
+  font-size: 14px;
+  color: var(--text-light);
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.clearBtn {
+  background: var(--bg-main);
+  color: var(--primary);
+  border: 1px solid var(--primary);
+  padding: 5px 15px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 30px;
+}
+
+.card {
+  background: var(--card-bg);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+  transition: all 0.3s ease;
+  border: 1px solid var(--border);
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-md);
+}
+
+.imageBox {
+  position: relative;
+  height: 240px;
+}
+
+.imageBox img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.tag {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  background: #fff;
+  color: #1a1a1a;
+  padding: 5px 12px;
+  border-radius: 20px;
+  font-size: 11px;
+  font-weight: 700;
+  box-shadow: var(--shadow-sm);
+}
+
+.rating {
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  background: #fff;
+  color: #ffa41c;
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 700;
+  box-shadow: var(--shadow-sm);
+}
+
+.wishlistBtn {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  width: 36px;
+  height: 36px;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  box-shadow: var(--shadow-sm);
+}
+
+.details {
+  padding: 24px;
+}
+
+.name {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.location {
+  font-size: 13px;
+  color: var(--text-light);
+  margin-bottom: 24px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  border-top: 1px solid var(--border);
+  padding-top: 15px;
+}
+
+.pricing {
+  display: flex;
+  flex-direction: column;
+}
+
+.from {
+  font-size: 11px;
+  color: var(--text-light);
+  margin-bottom: 2px;
+}
+
+.price {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--primary);
+}
+
+.actions {
+  display: flex;
+  gap: 10px;
+}
+
+.detailsBtn {
+  background: transparent;
+  color: var(--text-light);
+  border: 1px solid var(--border);
+  padding: 8px 16px;
+  border-radius: var(--radius-sm);
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.bookBtn {
+  background: var(--primary);
+  color: #fff;
+  padding: 8px 20px;
+  border-radius: var(--radius-sm);
+  font-size: 13px;
+  font-weight: 600;
+}
+
+/* Modals */
+.modal {
+  background: var(--card-bg);
+  width: 100%;
+  max-width: 600px;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  position: relative;
+  box-shadow: var(--shadow-md);
+  color: var(--text-main);
+}
+
+.modalClose {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  font-size: 28px;
+  color: #fff;
+  z-index: 10;
+  background: rgba(0,0,0,0.3);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modalImage {
+  height: 300px;
+}
+
+.modalImage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.modalContent {
+  padding: 30px;
+  text-align: left;
+}
+
+.modalDesc {
+  margin: 15px 0 30px;
+  color: var(--text-light);
+}
+
+.modalFooter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  border-top: 1px solid var(--border);
+}
+
+.modalPrice span {
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--primary);
+}
+
+.bookBtnLarge {
+  background: var(--primary);
+  color: #fff;
+  padding: 12px 30px;
+  border-radius: var(--radius-sm);
+  font-weight: 700;
+}
+
+/* Confirmation Popup */
+.confirmPopup {
+  background: var(--card-bg);
+  padding: 50px 40px;
+  border-radius: var(--radius-lg);
+  text-align: center;
+  max-width: 400px;
+  width: 90%;
+  color: var(--text-main);
+}
+
+.successIcon {
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+
+.confirmPopup h2 {
+  color: var(--primary);
+  margin-bottom: 10px;
+}
+
+.confirmPopup p {
+  color: var(--text-light);
+  margin-bottom: 30px;
+}
+
+.doneBtn {
+  background: var(--primary);
+  color: #fff;
+  padding: 12px 40px;
+  border-radius: var(--radius-sm);
+  font-weight: 600;
+}
+
+/* Skeletons */
+.skeletonCard {
+  background: var(--card-bg);
+  border-radius: var(--radius-lg);
+  height: 400px;
+  padding: 0;
+  overflow: hidden;
+}
+
+.skeletonImage {
+  height: 240px;
+  background: linear-gradient(90deg, var(--bg-alt) 25%, var(--border) 50%, var(--bg-alt) 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+}
+
+.skeletonText, .skeletonTextSmall {
+  margin: 20px;
+  height: 20px;
+  background: var(--bg-alt);
+  border-radius: 4px;
+}
+
+.skeletonTextSmall {
+  width: 60%;
+}
+
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+.noResults {
+  text-align: center;
+  padding: 100px 0;
+  grid-column: 1 / -1;
+}
+
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
