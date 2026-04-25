@@ -1,79 +1,47 @@
-# 🏨 Zostel Clone – React Project
+# Zotel Stays
 
-A responsive front-end clone inspired by the Zostel website, built using React with a focus on clean UI and component-based architecture.
-
----
+A premium React-based landing page for **Zotel**, a modern backpacking community. This project is a high-fidelity UI clone featuring interactive property filtering, a responsive gallery, and a fully functional dark mode system.
 
 ## 🚀 Features
 
-* Responsive and modern UI
-* Component-based structure
-* Reusable components
-* Styled footer with multiple sections:
-
-  * Partner cards
-  * Branding section
-  * App download section
-  * Footer links & social icons
-
----
+-   **Dynamic Property Grid**: Filter stays by location or category (Dorms, Private Rooms, Villas).
+-   **Theme System**: Persisted dark/light mode using CSS variables and local storage.
+-   **Interactive UI**: Custom modals for property details and booking confirmations (no alerts).
+-   **Auth System**: Simulated login/logout functionality with state-driven UI updates.
+-   **Responsive Design**: Fully optimized for mobile, tablet, and desktop views.
+-   **Scroll Animations**: Smooth entrance animations using the Intersection Observer API.
 
 ## 🛠️ Tech Stack
 
-* React (Vite)
-* JavaScript (ES6+)
-* HTML5
-* CSS3
+-   **Framework**: React 19
+-   **Build Tool**: Vite
+-   **Styling**: Pure CSS (CSS Modules)
+-   **State Management**: React Context API
+-   **Icons**: Emoji-based for a clean, library-free implementation
 
----
+## 📦 Getting Started
 
-## 📁 Project Structure
+1.  **Clone the repository**:
+    ```bash
+    git clone https://github.com/yourusername/zotel-stays.git
+    ```
+2.  **Install dependencies**:
+    ```bash
+    npm install
+    ```
+3.  **Run the development server**:
+    ```bash
+    npm run dev
+    ```
 
-```
-src/
- ├── features/
- │    ├── Footer/
- │    │    ├── Footer.jsx
- │    │    └── Footer.css
- │
- ├── App.jsx
- ├── main.jsx
-```
+## 📂 Project Structure
 
----
+-   `src/components`: Modular UI components (Header, Hero, PropertyCards, etc.).
+-   `src/context`: Global state management for theme, auth, and filters.
+-   `src/data`: Structured property and content data.
+-   `src/hooks`: Custom React hooks for animations and scroll behavior.
+-   `src/assets`: Branding assets and local images.
 
-## ⚙️ Setup
+## 📄 License
 
-```
-git clone https://github.com/ShreyaSingh2606/wap-react-project.git
-cd wap-react-project
-npm install
-npm run dev
-```
-
----
-
-## 📚 Learning Outcomes
-
-* Understanding React component-based architecture
-* Creating reusable UI components
-* Managing project structure in a team environment
-* Using Git and GitHub for collaboration
-
----
-
-## 🙌 Acknowledgement
-
-This project is inspired by the design and user experience of the Zostel website.
-
----
-
-## 🤝 Contributors:
-Shreya Singh, Anvesha Patel, Shailja Vatsa
- 
-
----
-
-## 📄 Note
-
-This project is built for educational purposes.
+This project is open-source and available under the [MIT License](LICENSE).
