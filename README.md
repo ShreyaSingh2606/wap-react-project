@@ -2,7 +2,7 @@
 
 A premium React-based landing page for **Zotel**, a modern backpacking community. This project is a high-fidelity UI clone featuring interactive property filtering, a responsive gallery, and a fully functional dark mode system.
 
-## 🚀 Features
+## Features
 
 -   **Dynamic Property Grid**: Filter stays by location or category (Dorms, Private Rooms, Villas).
 -   **Theme System**: Persisted dark/light mode using CSS variables and local storage.
@@ -11,7 +11,7 @@ A premium React-based landing page for **Zotel**, a modern backpacking community
 -   **Responsive Design**: Fully optimized for mobile, tablet, and desktop views.
 -   **Scroll Animations**: Smooth entrance animations using the Intersection Observer API.
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 -   **Framework**: React 19
 -   **Build Tool**: Vite
@@ -19,7 +19,7 @@ A premium React-based landing page for **Zotel**, a modern backpacking community
 -   **State Management**: React Context API
 -   **Icons**: Emoji-based for a clean, library-free implementation
 
-## 📦 Getting Started
+## Getting Started
 
 1.  **Clone the repository**:
     ```bash
@@ -34,7 +34,7 @@ A premium React-based landing page for **Zotel**, a modern backpacking community
     npm run dev
     ```
 
-## 📂 Project Structure
+## Project Structure
 
 -   `src/components`: Modular UI components (Header, Hero, PropertyCards, etc.).
 -   `src/context`: Global state management for theme, auth, and filters.
@@ -42,6 +42,6 @@ A premium React-based landing page for **Zotel**, a modern backpacking community
 -   `src/hooks`: Custom React hooks for animations and scroll behavior.
 -   `src/assets`: Branding assets and local images.
 
-## 📄 License
+## License
 
 This project is open-source and available under the [MIT License](LICENSE).
